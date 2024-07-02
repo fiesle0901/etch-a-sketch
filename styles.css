@@ -1,0 +1,16 @@
+
+.grid-container {
+   display: grid;
+   width: 600px;
+   height: 600px;
+   margin: 0 auto;
+   grid-template-columns: repeat(16,1fr);
+   grid-template-rows: repeat(16,1fr);
+   border:1px solid black;
+}
+
+/* Styling for individual grid squares */
+.grid-container div {
+    background-color: #fff; /* default background color */
+    border: 1px solid #888; /* border for visualization */
+}
